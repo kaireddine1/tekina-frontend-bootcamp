@@ -1,0 +1,75 @@
+mkdir = creation de dossier 
+touch = creation de fichier 
+mv = renomer ou deplacer 
+ls = lister 
+example mv yaourt.txt frigo/ = move yaourt dans frigo 
+mv * frigo = move everything inside frigo 
+cd .. = retour en arriere 
+cd + nom de dossier = entree dans le dossier 
+cd ../.. = retour deux fois en arriere 
+cd - = point d'origine 
+./ = sortir du dossier 
+frigo/ = rentree le fichier dans le frigomkdir = creation de dossier 
+touch = creation de fichier 
+mv = renomer ou deplacer 
+ls = lister 
+example mv yaourt.txt frigo/ = move yaourt dans frigo 
+mv * frigo = move everything inside frigo 
+cd .. = retour en arriere 
+cd + nom de dossier = entree dans le dossier 
+cd ../.. = retour deux fois en arriere 
+cd - = point d'origine 
+./ = sortir du dossier 
+frigo/ = rentree le fichier dans le frigomkdir = creation de dossier 
+touch = creation de fichier 
+mv = renomer ou deplacer 
+ls = lister 
+example mv yaourt.txt frigo/ = move yaourt dans frigo 
+mv * frigo = move everything inside frigo 
+cd .. = retour en arriere 
+cd + nom de dossier = entree dans le dossier 
+cd ../.. = retour deux fois en arriere 
+cd - = point d'origine 
+./ = sortir du dossier 
+frigo/ = rentree le fichier dans le frigo   
+Vi = écrire dans fichier 
+Cat = montrer ce qu'il y a dedans 
+Esc + w + q = exit save 
+Note commande de git*****
+
+p10k configure
+
+# Prompt simple et coloré
+PROMPT='%F{green}%n@%m %F{cyan}%~ %F{red}$ %f'
+
+#,Command,What it does (in plain English),Example / Most common use
+1,ls -lAh,List everything (including hidden files) with nice sizes,See what’s really in a folder
+2,cd ~/Desktop,Go to your Desktop,cd ~/Desktop
+3,cd ..,Go up one folder,Go back
+4,cd,Go directly to your home folder,Quick reset
+5,open .,Open the current folder in Finder,Jump from Terminal → Finder
+6,"open -a ""App Name""",Open any app,"open -a ""Visual Studio Code"""
+7,pwd,Show the full path of where you are,Copy current path
+8,cp,Copy files/folders,cp file.txt ~/Desktop/
+9,mv,Move or rename files/folders,mv old.txt new.txt
+10,rm,Delete files (careful!),rm badfile.txt
+11,rm -r,Delete folders,rm -r OldFolder
+12,mkdir,Create a new folder,mkdir NewProject
+13,touch,Create an empty file,touch draft.txt
+14,cat,Show content of a file,cat readme.txt
+15,less,View large files page by page (press q to quit),less biglog.txt
+16,nano or vim,Quick edit a file,nano todo.txt
+17,"find . -name ""*.jpg""",Search for files by name,Find all photos in current folder
+18,"grep ""text"" file.txt",Search inside files,"grep ""error"" log.txt"
+19,du -sh *,Show size of every file/folder (human readable),See what takes space
+20,df -h,Show free disk space,How much space left?
+21,top,See live CPU & memory usage (press q to quit),What’s slowing my Mac?
+22,killall,Force quit an app from Terminal,killall Safari
+23,caffeinate -u -t 3600,Prevent Mac from sleeping for 1 hour,During long downloads
+24,"say ""hello""",Make your Mac speak,"say ""Work finished"""
+25,pbcopy / pbpaste,Copy & paste from Terminal,`cat file.txt
+26,history,Show your last commands,Remember what you typed
+27,!!,Run the last command again,Super fast repeat
+28,Ctrl + R,Search your command history (type to search backward),Find that long command you used yesterday
+29,ssh user@ip,Connect to another computer/server,Remote work
+30,brew,Homebrew – install & manage software (the #1 tool you must have),brew install wget or brew install node
