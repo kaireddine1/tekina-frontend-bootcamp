@@ -37,6 +37,9 @@ Cat = montrer ce qu'il y a dedans
 Esc + w + q = exit save 
 Note commande de git*****
 
+vi - code sur terminal 
+Code ... - code sur vs code 
+
 p10k configure
 
 # Prompt simple et coloré
